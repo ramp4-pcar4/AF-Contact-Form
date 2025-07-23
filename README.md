@@ -4,11 +4,11 @@
 
 ## Set up
 
-<p>Create a send grid API key and add it to your Configuration panel with the name: </p>
+<p>Create a Postmark template and add its ID along with your API key to the Configuration panel with the names: </p>
 
 ```
-SENDGRID_API_KEY
+POSTMARK_TEMPLATE_ID
+POSTMARK_API_TOKEN
 ```
-
 
 <p>Simply deploy your Azure Function using the extension available in VS Code, or configure your function to build and deploy whenever changes are made to your repo.</p>
